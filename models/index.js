@@ -1,4 +1,4 @@
-const Workout = require("./workout.js");
+const Workout = require("./Workout.js");
 
 module.exports = {
   Workout: Workout,

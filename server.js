@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useCreateIndex: true,
 });
 
-// routes
+// set up routes here
 require("./routes/routes.js")(app);
 require("./routes/html.js")(app);
 
