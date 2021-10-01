@@ -40,5 +40,12 @@ module.exports = (app) => {
           res.status(400).json(err);
         });
       });
+
+      // trouble shooting Heorku
+      app.get("*", (req, res) => {
+
+        res.redirect("/");
+
+    });
   
 };
