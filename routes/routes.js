@@ -41,11 +41,6 @@ module.exports = (app) => {
         });
       });
 
-      // trouble shooting Heorku
-      app.get("*", (req, res) => {
-
-        res.redirect("/");
-
-    });
+    
   
 };
