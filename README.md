@@ -14,4 +14,8 @@
 <br> The app works on a local host but there are issues when trying to open the app on Heroku. 
 
 # Screenshots
-![](img/readme.png)
+![](img/1.png)
+![](img/2.png)
+![](img/3.png)
+![](img/4.png)
+
